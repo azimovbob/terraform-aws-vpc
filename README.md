@@ -1,1 +1,1 @@
-# terraform-as-vpc
+# terraform-aws-vpc
