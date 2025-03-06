@@ -14,6 +14,15 @@ variable "vpc_common_tags" {
   description = "VPC tags"
 }
 
+variable "enable_dns_hostnames" {
+  type    = bool
+  default = false
+}
+
+variable "enable_dns_support" {
+  type    = bool
+  default = false
+}
 
 ##############################
 ##    Subnet Variables      ##
